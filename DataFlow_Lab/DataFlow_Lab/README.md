@@ -12,7 +12,9 @@
 - @environmentObject are used so that all child views can access it without needing to be passed from view to view.
     - This is most analogous to how Redux stores work in ReactJS. Redux is used to avoid prop drilling, passing child->child->child and then updating the parent by going back up the lateral chain. Same goes for environmentObject, except we are dealing with views instead of components. 
     
-![Screenshot using Custom Environment Variables](custom_environment_variables_screenshot.png)
+![Screenshot using Custom Environment Variables](custom_environment_variables_screenshot.png "Screenshot using Custom Environment Variables")
+Screenshot using Custom Environment Variables
 
-![Screenshot using Environment Object](environment_object_screenshot.png)
+![Screenshot using Environment Object](environment_object_screenshot.png "Screenshot using Custom Environment Variables")
+Screenshot using Custom Environment Variables
 
