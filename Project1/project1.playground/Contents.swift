@@ -30,7 +30,7 @@ func greatestCommonDivisor(num1: Int, num2: Int) -> Int {
         return greatestCommonDivisor(num1: num1, num2: num2-num1);
     }
 }
-var gcd = greatestCommonDivisor(num1: 16, num2: 4);
+var gcd = greatestCommonDivisor(num1: 0, num2: 4);
 print(gcd);
 
 
