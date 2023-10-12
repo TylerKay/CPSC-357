@@ -15,6 +15,6 @@
 ![Screenshot using Custom Environment Variables](custom_environment_variables_screenshot.png "Screenshot using Custom Environment Variables")
 Screenshot using Custom Environment Variables
 
-![Screenshot using Environment Object](environment_object_screenshot.png "Screenshot using Custom Environment Variables")
-Screenshot using Custom Environment Variables
+![Screenshot using Environment Objects](environment_object_screenshot.png "Screenshot using Custom Environment Variables")
+Screenshot using Environment Objects
 
