@@ -1,0 +1,46 @@
+[
+    {
+        "id": "aa32jj887hhg55",
+        "name": "Happy Lemon",
+        "description": "Happy Lemon is a world-leading beverage chain founded in 2006 by the Yummy-Town Group, a publicly listed tea culture company originating in Taiwan. They are the elite pioneers who originally brought and expanded the tea culture to Mainland China and Hong Kong.",
+        "tier": "B",
+        "imageName": "happy_lemon"
+    },
+    {
+        "id": "bb32jj887hhg77",
+        "name": "7 Leaves",
+        "description": "Coffee, Tea, and Goodness are the very essence of what 7 Leaves serve. From the humble beginning in a small 1,100 square foot store located in the heart of Little Saigon, a band of brothers and close friends met in 2011.",
+        "tier": "A",
+        "imageName": "seven_leaves"
+    },
+    {
+        "id": "cc32jj887hhg66",
+        "name": "Gong Cha",
+        "description": "Founded in 2006 in Kaohsiung, Taiwan; Gong Cha, which translates to “tribute tea for the emperor” opened its doors to the bubble tea market. Gong cha is known across the world for its signature Milk Foam. Its creamy, sweet and savory flavor balance and whipped texture make it the perfect complement to our freshly brewed teas. ",
+        "tier": "S",
+        "imageName": "gongcha"
+    },
+    {
+        "id": "dd32jj887hhg88",
+        "name": "WUSHILAND",
+        "description": "Wu-Shih-Lan started its first “Hand-Shaken Tea” store in 1994 in Taiwan. It's a Taiwanese tea-based drink with a variety of toppings, such as chewy tapioca balls (Boba). The commitment of using the best and authentic ingredients led to an exponential popularity growth.",
+        "tier": "B",
+        "imageName": "wushiland"
+    },
+    {
+        "id": "ee32jj887hhg99",
+        "name": "Ben Gong",
+        "description": "Ben Gong‘s Tea (In Chinese it means Her Majesty’s Tea ), was founded in 2015, Based on Chinese cultural heritage and ingenuity tea art, Integrates traditional culture into contemporary life, and creates authentic Chinese-style tea.",
+        "tier": "S",
+        "imageName": "ben_gong"
+    },
+    {
+        "id": "ff32jj887hhg99",
+        "name": "Cha for Tea",
+        "description": "Established in 1999.Cha is the pioneer 20 years ago first to introduce boba to Orange County. Originated from a 60-year-old retail tea company, Ten Ren's Tea in Taiwan, Cha is committed to introducing Taiwan's popular boba tea to US foodies. Every batch of boba, every cup of tea, and every ounce water is carefully tested and screened before making its way into our cups, and your hands. ",
+        "tier": "S",
+        "imageName": "cha_for_tea"
+    },
+    
+]
+

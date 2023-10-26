@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FB970BD52AE9DCED007B6E5B /* boba_location_imgs in Resources */ = {isa = PBXBuildFile; fileRef = FB970BD42AE9DCED007B6E5B /* boba_location_imgs */; };
 		FB970BD72AE9E050007B6E5B /* BobaAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB970BD62AE9E050007B6E5B /* BobaAssets.xcassets */; };
+		FB970BD92AEA5162007B6E5B /* bobaData.json in Resources */ = {isa = PBXBuildFile; fileRef = FB970BD82AEA5162007B6E5B /* bobaData.json */; };
+		FB970BDB2AEA51A3007B6E5B /* bobaData.json in Resources */ = {isa = PBXBuildFile; fileRef = FB970BDA2AEA51A3007B6E5B /* bobaData.json */; };
 		FB9DE15D2AE74FC7008B579E /* Project2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DE15C2AE74FC7008B579E /* Project2App.swift */; };
 		FB9DE15F2AE74FC7008B579E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DE15E2AE74FC7008B579E /* ContentView.swift */; };
 		FB9DE1612AE74FCA008B579E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9DE1602AE74FCA008B579E /* Assets.xcassets */; };
@@ -17,13 +19,14 @@
 		FB9DE16E2AE75B47008B579E /* BobaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DE16D2AE75B47008B579E /* BobaStore.swift */; };
 		FB9DE1702AE75C58008B579E /* BobaLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DE16F2AE75C58008B579E /* BobaLocation.swift */; };
 		FB9DE1722AE75F68008B579E /* BobaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DE1712AE75F68008B579E /* BobaData.swift */; };
-		FB9DE1742AE75FF6008B579E /* bobaData.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9DE1732AE75FF6008B579E /* bobaData.json */; };
 		FB9DE1762AE76618008B579E /* BobaLocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9DE1752AE76618008B579E /* BobaLocationDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB970BD42AE9DCED007B6E5B /* boba_location_imgs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = boba_location_imgs; sourceTree = "<group>"; };
 		FB970BD62AE9E050007B6E5B /* BobaAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BobaAssets.xcassets; sourceTree = "<group>"; };
+		FB970BD82AEA5162007B6E5B /* bobaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bobaData.json; sourceTree = SOURCE_ROOT; };
+		FB970BDA2AEA51A3007B6E5B /* bobaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bobaData.json; sourceTree = SOURCE_ROOT; };
 		FB9DE1592AE74FC7008B579E /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9DE15C2AE74FC7008B579E /* Project2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2App.swift; sourceTree = "<group>"; };
 		FB9DE15E2AE74FC7008B579E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,7 +37,6 @@
 		FB9DE16D2AE75B47008B579E /* BobaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaStore.swift; sourceTree = "<group>"; };
 		FB9DE16F2AE75C58008B579E /* BobaLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaLocation.swift; sourceTree = "<group>"; };
 		FB9DE1712AE75F68008B579E /* BobaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaData.swift; sourceTree = "<group>"; };
-		FB9DE1732AE75FF6008B579E /* bobaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bobaData.json; path = ../../../CPSC357/ListDemo2/ListDemo2/bobaData.json; sourceTree = "<group>"; };
 		FB9DE1752AE76618008B579E /* BobaLocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaLocationDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 		FB9DE15B2AE74FC7008B579E /* Project2 */ = {
 			isa = PBXGroup;
 			children = (
+				FB970BDA2AEA51A3007B6E5B /* bobaData.json */,
 				FB970BD42AE9DCED007B6E5B /* boba_location_imgs */,
 				FB9DE15C2AE74FC7008B579E /* Project2App.swift */,
 				FB9DE15E2AE74FC7008B579E /* ContentView.swift */,
@@ -76,7 +79,6 @@
 				FB9DE16F2AE75C58008B579E /* BobaLocation.swift */,
 				FB9DE16B2AE75602008B579E /* AddBobaLocation.swift */,
 				FB9DE16D2AE75B47008B579E /* BobaStore.swift */,
-				FB9DE1732AE75FF6008B579E /* bobaData.json */,
 				FB970BD62AE9E050007B6E5B /* BobaAssets.xcassets */,
 				FB9DE1602AE74FCA008B579E /* Assets.xcassets */,
 				FB9DE1622AE74FCA008B579E /* Project2.entitlements */,
@@ -88,6 +90,7 @@
 		FB9DE1632AE74FCA008B579E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FB970BD82AEA5162007B6E5B /* bobaData.json */,
 				FB9DE1642AE74FCA008B579E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -152,8 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9DE1652AE74FCA008B579E /* Preview Assets.xcassets in Resources */,
+				FB970BDB2AEA51A3007B6E5B /* bobaData.json in Resources */,
+				FB970BD92AEA5162007B6E5B /* bobaData.json in Resources */,
 				FB970BD52AE9DCED007B6E5B /* boba_location_imgs in Resources */,
-				FB9DE1742AE75FF6008B579E /* bobaData.json in Resources */,
 				FB9DE1612AE74FCA008B579E /* Assets.xcassets in Resources */,
 				FB970BD72AE9E050007B6E5B /* BobaAssets.xcassets in Resources */,
 			);
