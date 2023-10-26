@@ -27,7 +27,7 @@
 		FB970BD62AE9E050007B6E5B /* BobaAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BobaAssets.xcassets; sourceTree = "<group>"; };
 		FB970BD82AEA5162007B6E5B /* bobaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bobaData.json; sourceTree = SOURCE_ROOT; };
 		FB970BDA2AEA51A3007B6E5B /* bobaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bobaData.json; sourceTree = SOURCE_ROOT; };
-		FB9DE1592AE74FC7008B579E /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9DE1592AE74FC7008B579E /* Tyler_Kay_Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tyler_Kay_Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB9DE15C2AE74FC7008B579E /* Project2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2App.swift; sourceTree = "<group>"; };
 		FB9DE15E2AE74FC7008B579E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB9DE1602AE74FCA008B579E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		FB9DE15A2AE74FC7008B579E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB9DE1592AE74FC7008B579E /* Project2.app */,
+				FB9DE1592AE74FC7008B579E /* Tyler_Kay_Project2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB9DE1582AE74FC7008B579E /* Project2 */ = {
+		FB9DE1582AE74FC7008B579E /* Tyler_Kay_Project2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB9DE1682AE74FCA008B579E /* Build configuration list for PBXNativeTarget "Project2" */;
+			buildConfigurationList = FB9DE1682AE74FCA008B579E /* Build configuration list for PBXNativeTarget "Tyler_Kay_Project2" */;
 			buildPhases = (
 				FB9DE1552AE74FC7008B579E /* Sources */,
 				FB9DE1562AE74FC7008B579E /* Frameworks */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = Project2;
+			name = Tyler_Kay_Project2;
 			productName = Project2;
-			productReference = FB9DE1592AE74FC7008B579E /* Project2.app */;
+			productReference = FB9DE1592AE74FC7008B579E /* Tyler_Kay_Project2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FB9DE1542AE74FC7008B579E /* Build configuration list for PBXProject "Project2" */;
+			buildConfigurationList = FB9DE1542AE74FC7008B579E /* Build configuration list for PBXProject "Tyler_Kay_Project2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB9DE1582AE74FC7008B579E /* Project2 */,
+				FB9DE1582AE74FC7008B579E /* Tyler_Kay_Project2 */,
 			);
 		};
 /* End PBXProject section */
@@ -376,7 +376,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB9DE1542AE74FC7008B579E /* Build configuration list for PBXProject "Project2" */ = {
+		FB9DE1542AE74FC7008B579E /* Build configuration list for PBXProject "Tyler_Kay_Project2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB9DE1662AE74FCA008B579E /* Debug */,
@@ -385,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB9DE1682AE74FCA008B579E /* Build configuration list for PBXNativeTarget "Project2" */ = {
+		FB9DE1682AE74FCA008B579E /* Build configuration list for PBXNativeTarget "Tyler_Kay_Project2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB9DE1692AE74FCA008B579E /* Debug */,
