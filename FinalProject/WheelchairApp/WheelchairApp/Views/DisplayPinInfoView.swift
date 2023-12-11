@@ -53,19 +53,3 @@ struct DisplayPinInfoView: View {
         
     }
 }
-
-//#Preview {
-//    AddPinInfoView()
-//}
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        // Create an instance of DraggablePinData
-//        let draggablePinData = DraggablePinData()
-//
-//        // Inject the environment object into ConfirmLocationView
-//        DisplayPinInfoView().environmentObject(draggablePinData)
-//        
-//    }
-//}
-

@@ -79,7 +79,7 @@ struct MoveablePinMap: UIViewRepresentable {
 
 
 //https://stackoverflow.com/questions/45871084/trouble-creating-custom-mkannotationview
-class DraggablePin: NSObject, MKAnnotation {
+class DraggablePin: NSObject, MKAnnotation { // initialize DraggablePin objects. Has title, coordinates
     var coordinate: CLLocationCoordinate2D
     var title: String?
     
@@ -89,27 +89,3 @@ class DraggablePin: NSObject, MKAnnotation {
         super.init()
     }
 }
-
-
-    
-    
-    
-//#Preview {
-////    SearchView()
-//    MoveablePinMap()
-//}
-
-//struct ContentView_Previews: PreviewProvider {
-////    @StateObject private var draggablePinData = DraggablePinData()
-//    static var previews: some View {
-//        // Create an instance of DraggablePinData
-//        @StateObject var draggablePinData = DraggablePinData()
-//
-//        // Inject the environment object into ConfirmLocationView
-//        VStack {
-//            MoveablePinMap().environmentObject(draggablePinData)
-//            Text("\(draggablePinData.value)")
-////            Text("\(draggablePinData.coordinates.latitude)")
-//        }
-//    }
-//}

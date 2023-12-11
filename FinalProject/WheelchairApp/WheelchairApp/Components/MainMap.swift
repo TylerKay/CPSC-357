@@ -74,15 +74,3 @@ struct MainMap: View {
 
     }
 }
-
-struct MarkerInfo: Identifiable {
-    let id = UUID()
-    let name: String
-    let coordinate: CLLocationCoordinate2D
-    let tint: Color
-    let reason: String
-}
-
-//#Preview {
-//    MainMap()
-//}

@@ -19,6 +19,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
+                // initializes the main map for the first view
                 MainMap(markerStore: self.markerStore)
                     .navigationBarTitle(Text("Mobility Map"))
                     .navigationBarItems(leading: NavigationLink(

@@ -11,16 +11,14 @@
 		FB1848D62B1C4A1700B3FAB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1848D52B1C4A1700B3FAB6 /* ContentView.swift */; };
 		FB1848D82B1C4A1D00B3FAB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1848D72B1C4A1D00B3FAB6 /* Assets.xcassets */; };
 		FB1848DB2B1C4A1D00B3FAB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1848DA2B1C4A1D00B3FAB6 /* Preview Assets.xcassets */; };
+		FB286C9B2B26F88A003C3424 /* MarkerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB286C9A2B26F88A003C3424 /* MarkerInfo.swift */; };
 		FB65D4322B1D2B2000AD6900 /* MainMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D4312B1D2B2000AD6900 /* MainMap.swift */; };
 		FB65D4342B1D2DC200AD6900 /* ConfirmLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D4332B1D2DC200AD6900 /* ConfirmLocationView.swift */; };
-		FB65D4362B1D2F5100AD6900 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D4352B1D2F5100AD6900 /* LocationManager.swift */; };
 		FB65D4542B204D2500AD6900 /* AddPinInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D4532B204D2500AD6900 /* AddPinInfoView.swift */; };
 		FB65D4572B2055B800AD6900 /* MoveablePinMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D4562B2055B800AD6900 /* MoveablePinMap.swift */; };
 		FB65D4592B206B7300AD6900 /* DraggablePinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D4582B206B7200AD6900 /* DraggablePinData.swift */; };
 		FB65D45B2B20835C00AD6900 /* DisplayPinInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D45A2B20835C00AD6900 /* DisplayPinInfoView.swift */; };
 		FB65D45D2B21BDED00AD6900 /* MarkerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D45C2B21BDED00AD6900 /* MarkerStore.swift */; };
-		FB65D4612B25831500AD6900 /* MapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D4602B25831500AD6900 /* MapTest.swift */; };
-		FB65D4632B258EF700AD6900 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB65D4622B258EF700AD6900 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,16 +27,14 @@
 		FB1848D52B1C4A1700B3FAB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB1848D72B1C4A1D00B3FAB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1848DA2B1C4A1D00B3FAB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB286C9A2B26F88A003C3424 /* MarkerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerInfo.swift; sourceTree = "<group>"; };
 		FB65D4312B1D2B2000AD6900 /* MainMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMap.swift; sourceTree = "<group>"; };
 		FB65D4332B1D2DC200AD6900 /* ConfirmLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLocationView.swift; sourceTree = "<group>"; };
-		FB65D4352B1D2F5100AD6900 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		FB65D4532B204D2500AD6900 /* AddPinInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPinInfoView.swift; sourceTree = "<group>"; };
 		FB65D4562B2055B800AD6900 /* MoveablePinMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveablePinMap.swift; sourceTree = "<group>"; };
 		FB65D4582B206B7200AD6900 /* DraggablePinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggablePinData.swift; sourceTree = "<group>"; };
 		FB65D45A2B20835C00AD6900 /* DisplayPinInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPinInfoView.swift; sourceTree = "<group>"; };
 		FB65D45C2B21BDED00AD6900 /* MarkerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerStore.swift; sourceTree = "<group>"; };
-		FB65D4602B25831500AD6900 /* MapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTest.swift; sourceTree = "<group>"; };
-		FB65D4622B258EF700AD6900 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +51,6 @@
 		FB1848C72B1C4A1700B3FAB6 = {
 			isa = PBXGroup;
 			children = (
-				FB65D4622B258EF700AD6900 /* TestView.swift */,
 				FB1848D22B1C4A1700B3FAB6 /* WheelchairApp */,
 				FB1848D12B1C4A1700B3FAB6 /* Products */,
 			);
@@ -78,7 +73,6 @@
 				FB65D45E2B225F7F00AD6900 /* Views */,
 				FB65D45F2B22603A00AD6900 /* Components */,
 				FB1848D72B1C4A1D00B3FAB6 /* Assets.xcassets */,
-				FB65D4352B1D2F5100AD6900 /* LocationManager.swift */,
 				FB1848D92B1C4A1D00B3FAB6 /* Preview Content */,
 			);
 			path = WheelchairApp;
@@ -107,7 +101,7 @@
 			children = (
 				FB65D4562B2055B800AD6900 /* MoveablePinMap.swift */,
 				FB65D4312B1D2B2000AD6900 /* MainMap.swift */,
-				FB65D4602B25831500AD6900 /* MapTest.swift */,
+				FB286C9A2B26F88A003C3424 /* MarkerInfo.swift */,
 				FB65D4582B206B7200AD6900 /* DraggablePinData.swift */,
 			);
 			path = Components;
@@ -183,14 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB65D4632B258EF700AD6900 /* TestView.swift in Sources */,
-				FB65D4612B25831500AD6900 /* MapTest.swift in Sources */,
 				FB65D45D2B21BDED00AD6900 /* MarkerStore.swift in Sources */,
 				FB65D45B2B20835C00AD6900 /* DisplayPinInfoView.swift in Sources */,
 				FB65D4592B206B7300AD6900 /* DraggablePinData.swift in Sources */,
 				FB65D4342B1D2DC200AD6900 /* ConfirmLocationView.swift in Sources */,
+				FB286C9B2B26F88A003C3424 /* MarkerInfo.swift in Sources */,
 				FB1848D62B1C4A1700B3FAB6 /* ContentView.swift in Sources */,
-				FB65D4362B1D2F5100AD6900 /* LocationManager.swift in Sources */,
 				FB65D4542B204D2500AD6900 /* AddPinInfoView.swift in Sources */,
 				FB1848D42B1C4A1700B3FAB6 /* WheelchairAppApp.swift in Sources */,
 				FB65D4572B2055B800AD6900 /* MoveablePinMap.swift in Sources */,
